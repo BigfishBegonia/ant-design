@@ -33,7 +33,7 @@ const customPanelStyle = {
 
 ReactDOM.render(
   <Collapse bordered={false} defaultActiveKey={['1']}>
-    <Panel header="This is panel header 1" key="1" style={customPanelStyle}>
+    <Panel header="This is panel header 1"+"dddddd" key="1" style={customPanelStyle}>
       <p>{text}</p>
     </Panel>
     <Panel header="This is panel header 2" key="2" style={customPanelStyle}>
